@@ -2,3 +2,124 @@
   margin: 0
   padding: 0
   box-sizing: border-box
+
+$dark-green: #193C34
+$off-white: #F4F3EF
+$light-green: #2B704F
+$red: #B02B2D
+
+.row-container
+  width: 100%
+  display: flex
+  flex-direction: row
+
+body
+  color: black
+  background-color: $off-white
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+
+.locate-banner
+  height: clamp(50px, 3vh, 100px)
+  align-items: center
+  padding: 0 3vw
+  color: $off-white
+  background-color: $dark-green
+  & > div
+    cursor: pointer
+    padding: 0 1rem
+    display: flex
+    justify-content: center
+    align-items: center
+    &:first-child
+      padding-left: 0
+    &:last-child
+      padding-right: 0
+  span
+    padding-right: .125rem
+  img
+    height: 1.25rem
+
+.right
+  margin-left: auto
+
+.icon-banner
+  color: black
+  padding: 1rem 3vw
+  border-bottom: .5px solid black
+  input
+    margin: 0 auto
+    justify-self: center
+    width: 60%
+
+.results
+  font-weight: 600
+  font-size: 1.5rem
+
+.chips
+  padding: 1rem 0
+  & > div
+    margin: 0 1rem
+    &:first-child
+      margin-left: 0
+    &:last-child
+      margin-right: 0
+
+.chip
+  font-size: 1rem
+  padding: .5rem 1rem
+  border-radius: 2rem
+  border: .5px solid black
+
+.container
+  padding: 0 6vw
+
+.items
+  width: 100%
+  display: grid
+  grid-template-columns: repeat(4, 1fr)
+  gap: 20px
+  padding: 1rem 0
+  @media (max-width: 768px)
+    grid-template-columns: repeat(3, 1fr)
+  @media (max-width: 480px)
+    grid-template-columns: repeat(1, 1fr)
+
+
+.item
+  img
+    width: 100%
+  .item__name
+    font-weight: 400
+    font-size: 1rem
+  .item__price
+    font-weight: 600
+    sup
+      font-size: 1.25rem
+      vertical-align: .5rem
+    .price
+      font-size: 2rem
+    .unit-price
+      font-size: .75rem
+  .item__button
+    color: $off-white
+    background-color: $light-green
+    font-size: 1rem
+    padding: .5rem 1rem
+    border-radius: 8px
+    border: none
+    cursor: pointer
+    width: fit-content
+  @media (max-width: 480px)
+    display: flex
+    gap: .5em
+    & > div
+      flex: 1
+    .item__content
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+    .item__name
+      font-size: 1.25rem
+
+
+    
