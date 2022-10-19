@@ -9,20 +9,91 @@
   </head>
   <body>
     <header class="row-container locate-banner">
-      <div><span>Locate Store</span> <img src="icons/map-pin.svg" alt="location pin"></img></div>
       <div>
-        <img class="flag" src="images/usa.png" alt="click to view page language options" />
+        <span>Locate Store</span>
+        <img src="icons/map-pin.svg" alt="location pin" />
       </div>
-      <div class="right">Promotions</div>
-      <div>Event</div>
-      <div>About</div>
+      <div>
+        <img
+          class="flag"
+          src="images/usa.png"
+          alt="click to view page language options"
+        />
+      </div>
+      <div class="right burger-item">Promotions</div>
+      <div class="burger-item">Events</div>
+      <div class="burger-item">About</div>
     </header>
     <nav class="row-container icon-banner">
-      <div class="icon">one</div>
-      <div class="icon">two</div>
-      <input class="search-bar" type="text" placeholder="Search" />
-      <div class="icon">three</div>
-      <div class="icon">four</div>
+      <div class="hamburger-menu">
+        <input type="checkbox" />
+        <div class="icon hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+        <ul class="menu-items">
+          <li>FAQ</li>
+          <li>Promotions</li>
+          <li>Events</li>
+          <li>About</li>
+        </ul>
+      </div>
+      <div class="icon logo">
+        <img src="images/logo.png" alt="99 Ranch Market logo" />
+      </div>
+      <div class="icon burger-item">
+        <img src="icons/help-circle.svg" alt="click to view faq's" />
+      </div>
+      <div class="search">
+        <div class="search-bar">
+          <input id="search-bar" type="text" placeholder="Search" />
+          <button type="submit">
+            <img src="icons/search.svg" alt="click to submit query" />
+          </button>
+        </div>
+        <div class="search-results hidden">
+          <div class="results">
+            <h1>Recently Searched</h1>
+            <div class="result">
+              how to make website look acceptable
+              <img
+                src="icons/arrow-up-left.svg"
+                alt="click to visit previous result"
+              />
+            </div>
+            <div class="result">
+              this took me way too long
+              <img
+                src="icons/arrow-up-left.svg"
+                alt="click to visit previous result"
+              />
+            </div>
+            <div class="result">
+              why are there voices in my head
+              <img
+                src="icons/arrow-up-left.svg"
+                alt="click to visit previous result"
+              />
+            </div>
+            <div class="result">
+              do i have schizophrenia
+              <img
+                src="icons/arrow-up-left.svg"
+                alt="click to visit previous result"
+              />
+            </div>
+            <h2>Clear History</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="icon">
+        <img src="icons/user.svg" alt="click to view profile" />
+      </div>
+      <div class="icon">
+        <img src="icons/shopping-cart.svg" alt="click to view cart" />
+      </div>
     </nav>
     <main class="container">
       <section class="row-container chips">
@@ -31,7 +102,7 @@
         <div class="chip">Price</div>
         <div class="chip right">Sort: Popularity</div>
       </section>
-      <h1 class="results">3123 results for "idk"</h1>
+      <h1 class="num-results">3123 results for "ferrari race director"</h1>
       <section class="items">
         <div class="item">
           <div class="item__image">
@@ -167,5 +238,6 @@
         </div>
       </section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
