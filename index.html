@@ -5,239 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>99 Ranch Market Redesign</title>
+    <title>Document</title>
   </head>
   <body>
-    <header class="row-container locate-banner">
-      <div>
-        <span>Locate Store</span>
-        <img src="icons/map-pin.svg" alt="location pin" />
-      </div>
-      <div>
-        <img
-          class="flag"
-          src="images/usa.png"
-          alt="click to view page language options"
-        />
-      </div>
-      <div class="right burger-item">Promotions</div>
-      <div class="burger-item">Events</div>
-      <div class="burger-item">About</div>
-    </header>
-    <nav class="row-container icon-banner">
-      <div class="hamburger-menu">
-        <input type="checkbox" />
-        <div class="icon hamburger-lines">
-          <span class="line"></span>
-          <span class="line"></span>
-          <span class="line"></span>
+    <section class="landing">
+      <h1>99 Ranch Market</h1>
+      <h2>Best Asian Grocery Since 1984</h2>
+      <p>
+        A redesign of
+        <a href="https://www.99ranch.com/">99 Ranch Market's website</a>,
+        centered around usability, especially search bars, chips, and item text.
+        <a href="redesign/index.html">Redesigned Version here</a>
+      </p>
+    </section>
+    <section class="usability">
+      <h1>Usability Problems</h1>
+      <h2>the bad</h2>
+      <img src="images/issues.png" alt="" />
+    </section>
+    <section class="research">
+      <h1>Research</h1>
+      <h2>took inspiration from Amazon and Target</h2>
+      <div class="row">
+        <div class="item">
+          <img src="images/amazon.png" alt="" />
         </div>
-        <ul class="menu-items">
-          <li>FAQ</li>
-          <li>Promotions</li>
-          <li>Events</li>
-          <li>About</li>
-        </ul>
-      </div>
-      <div class="icon logo">
-        <img src="images/logo.png" alt="99 Ranch Market logo" />
-      </div>
-      <div class="icon burger-item">
-        <img src="icons/help-circle.svg" alt="click to view faq's" />
-      </div>
-      <div class="search">
-        <div class="search-bar">
-          <input id="search-bar" type="text" placeholder="Search" />
-          <button type="submit">
-            <img src="icons/search.svg" alt="click to submit query" />
-          </button>
-        </div>
-        <div class="search-results hidden">
-          <div class="results">
-            <h1>Recently Searched</h1>
-            <div class="result">
-              how to make website look acceptable
-              <img
-                src="icons/arrow-up-left.svg"
-                alt="click to visit previous result"
-              />
-            </div>
-            <div class="result">
-              this took me way too long
-              <img
-                src="icons/arrow-up-left.svg"
-                alt="click to visit previous result"
-              />
-            </div>
-            <div class="result">
-              why are there voices in my head
-              <img
-                src="icons/arrow-up-left.svg"
-                alt="click to visit previous result"
-              />
-            </div>
-            <div class="result">
-              do i have schizophrenia
-              <img
-                src="icons/arrow-up-left.svg"
-                alt="click to visit previous result"
-              />
-            </div>
-            <h2>Clear History</h2>
-          </div>
+        <div class="item">
+          <img src="images/target.png" alt="" />
         </div>
       </div>
-
-      <div class="icon">
-        <img src="icons/user.svg" alt="click to view profile" />
-      </div>
-      <div class="icon">
-        <img src="icons/shopping-cart.svg" alt="click to view cart" />
-      </div>
-    </nav>
-    <main class="container">
-      <section class="row-container chips">
-        <div class="chip">Filter</div>
-        <div class="chip">Category</div>
-        <div class="chip">Price</div>
-        <div class="chip right">Sort: Popularity</div>
-      </section>
-      <h1 class="num-results">3123 results for "ferrari race director"</h1>
-      <section class="items">
-        <div class="item">
-          <div class="item__image">
-            <img src="images/mattia.png" alt="" />
-          </div>
-          <div class="item__content">
-            <h1 class="item__name">Mattia Binotto Clown</h1>
-            <h2 class="item__price">
-              <sup>$</sup><span class="price">200</span><sup>00</sup>&ensp;<span
-                class="unit-price"
-                >($0.50/ounce)</span
-              >
-            </h2>
-            <button class="item__button">Add to Cart</button>
-          </div>
-        </div>
-        <div class="item">
-          <div class="item__image">
-            <img src="images/mattia.png" alt="" />
-          </div>
-          <div class="item__name">Mattia Binotto Clown</div>
-          <div class="item__price">
-            <sup>$</sup><span class="price">200</span><sup>00</sup>&ensp;<span
-              class="unit-price"
-              >($0.50/ounce)</span
-            >
-          </div>
-          <button class="item__button">Add to Cart</button>
-        </div>
-        <div class="item">
-          <div class="item__image">
-            <img src="images/mattia.png" alt="" />
-          </div>
-          <div class="item__name">Mattia Binotto Clown</div>
-          <div class="item__price">
-            <sup>$</sup><span class="price">200</span><sup>00</sup>&ensp;<span
-              class="unit-price"
-              >($0.50/ounce)</span
-            >
-          </div>
-          <button class="item__button">Add to Cart</button>
-        </div>
-        <div class="item">
-          <div class="item__image">
-            <img src="images/mattia.png" alt="" />
-          </div>
-          <div class="item__name">Mattia Binotto Clown</div>
-          <div class="item__price">
-            <sup>$</sup><span class="price">200</span><sup>00</sup>&ensp;<span
-              class="unit-price"
-              >($0.50/ounce)</span
-            >
-          </div>
-          <button class="item__button">Add to Cart</button>
-        </div>
-        <div class="item">
-          <div class="item__image">
-            <img src="images/mattia.png" alt="" />
-          </div>
-          <div class="item__name">Mattia Binotto Clown</div>
-          <div class="item__price">
-            <sup>$</sup><span class="price">200</span><sup>00</sup>&ensp;<span
-              class="unit-price"
-              >($0.50/ounce)</span
-            >
-          </div>
-          <button class="item__button">Add to Cart</button>
-        </div>
-        <div class="item">
-          <div class="item__image">
-            <img src="images/mattia.png" alt="" />
-          </div>
-          <div class="item__name">Mattia Binotto Clown</div>
-          <div class="item__price">
-            <sup>$</sup><span class="price">200</span><sup>00</sup>&ensp;<span
-              class="unit-price"
-              >($0.50/ounce)</span
-            >
-          </div>
-          <button class="item__button">Add to Cart</button>
-        </div>
-        <div class="item">
-          <div class="item__image">
-            <img src="images/mattia.png" alt="" />
-          </div>
-          <div class="item__name">Mattia Binotto Clown</div>
-          <div class="item__price">
-            <sup>$</sup><span class="price">200</span><sup>00</sup>&ensp;<span
-              class="unit-price"
-              >($0.50/ounce)</span
-            >
-          </div>
-          <button class="item__button">Add to Cart</button>
-        </div>
-        <div class="item">
-          <div class="item__image">
-            <img src="images/mattia.png" alt="" />
-          </div>
-          <div class="item__name">Mattia Binotto Clown</div>
-          <div class="item__price">
-            <sup>$</sup><span class="price">200</span><sup>00</sup>&ensp;<span
-              class="unit-price"
-              >($0.50/ounce)</span
-            >
-          </div>
-          <button class="item__button">Add to Cart</button>
-        </div>
-        <div class="item">
-          <div class="item__image">
-            <img src="images/mattia.png" alt="" />
-          </div>
-          <div class="item__name">Mattia Binotto Clown</div>
-          <div class="item__price">
-            <sup>$</sup><span class="price">200</span><sup>00</sup>&ensp;<span
-              class="unit-price"
-              >($0.50/ounce)</span
-            >
-          </div>
-          <button class="item__button">Add to Cart</button>
-        </div>
-        <div class="item">
-          <div class="item__image">
-            <img src="images/mattia.png" alt="" />
-          </div>
-          <div class="item__name">Mattia Binotto Clown</div>
-          <div class="item__price">
-            <sup>$</sup><span class="price">200</span><sup>00</sup>&ensp;<span
-              class="unit-price"
-              >($0.50/ounce)</span
-            >
-          </div>
-          <button class="item__button">Add to Cart</button>
-        </div>
-      </section>
-    </main>
-    <script src="script.js"></script>
+      <h3>Takeaways</h3>
+      <ul>
+        <li>Amazon's emphasis on price integer</li>
+        <li>Amazon's price per unit</li>
+        <li>Target's two banners, with the sticky search bar</li>
+        <li>Target's usage of chips over large block of categories on left</li>
+        <li>Target's add to cart button to make purchasing faster</li>
+        <li>
+          Target's locate store button since 99 Ranch Market is primarily brick
+          and mortar
+        </li>
+      </ul>
+    </section>
+    <section class="lofi">
+      <h1>LoFi Wireframes</h1>
+      <h2>to relax/study to</h2>
+      <img src="images/LoFi Desktop.png" alt="" />
+      <img class="tall" src="images/LoFi Tablet.png" alt="" />
+      <img class="tall" src="images/LoFi Phone.png" alt="" />
+    </section>
+    <section class="hifi">
+      <h1>HiFi Prototypes</h1>
+      <img src="images/Components.png" alt="" />
+      <img src="images/HiFi Desktop.png" alt="" />
+      <img class="tall" src="images/HiFi Tablet.png" alt="" />
+      <img class="tall" src="images/HiFi Phone.png" alt="" />
+    </section>
+    <section class="redesign">Responsive Redesign</section>
   </body>
 </html>
