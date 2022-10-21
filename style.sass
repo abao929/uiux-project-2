@@ -3,6 +3,11 @@
   paddding: 0
   box-sizing: border-box
 
+body
+  // background-color: $
+  padding: 3vw
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+
 
 section
   width: 100%
@@ -10,11 +15,13 @@ section
   justify-content: center
   // align-items: center
   flex-direction: column
+  padding: 30px 0
   img
     // max-width: 80%
     // width: max(80vmin, 60vw)
     align-self: center
     width: 60%
+    padding: 2rem 0
     &.tall
       height: 70vh
       width: auto
@@ -27,7 +34,25 @@ section
   justify-content: space-around
   width: 80%
   gap: 6%
+  margin: 0 auto
   .item
     flex: 1
     img
       width: 100%
+
+h1
+  font-size: 32px
+  padding: .25em 0
+
+h2
+  font-size: 24px
+  font-weight: 300
+  padding: .25em 0
+
+p
+  font-size: 20px
+  padding: .25em 0
+
+ul
+  list-style-position: inside
+  padding-left: 0

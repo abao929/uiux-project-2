@@ -4,15 +4,22 @@
   box-sizing: border-box;
 }
 
+body {
+  padding: 3vw;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
 section {
   width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding: 30px 0;
 }
 section img {
   align-self: center;
   width: 60%;
+  padding: 2rem 0;
 }
 section img.tall {
   height: 70vh;
@@ -26,10 +33,32 @@ section img.tall {
   justify-content: space-around;
   width: 80%;
   gap: 6%;
+  margin: 0 auto;
 }
 .row .item {
   flex: 1;
 }
 .row .item img {
   width: 100%;
+}
+
+h1 {
+  font-size: 32px;
+  padding: 0.25em 0;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 300;
+  padding: 0.25em 0;
+}
+
+p {
+  font-size: 20px;
+  padding: 0.25em 0;
+}
+
+ul {
+  list-style-position: inside;
+  padding-left: 0;
 }/*# sourceMappingURL=style.css.map */
